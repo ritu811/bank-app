@@ -1,0 +1,72 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('https://images.pexels.com/photos/1422408/pexels-photo-1422408.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #f4f4f4; /* Fallback color */
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent black background */
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: center;
+    margin-top: 10px;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: rgba(255, 255, 255, 0.2); /* Lighter background on hover */
+}
+
+#content {
+    margin: 50px auto;
+    padding: 20px;
+    width: 90%; /* Adjust width as needed */
+    max-width: 900px; /* Maximum width of content */
+    border-radius: 10px; /* Rounded corners */
+
+    text-align: center;
+}
+
+#content h1 {
+    margin-bottom: 20px;
+    color: #333; /* Darker text color */
+}
+
+/* Optional: Additional styles for buttons or form elements */
+button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 5px 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #555;
+}
